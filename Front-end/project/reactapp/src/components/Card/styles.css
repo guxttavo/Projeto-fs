@@ -1,0 +1,79 @@
+#card-container {
+    box-shadow: 0px 32px 64px 0px rgba(17, 17, 17, 0.08);
+    border-radius: 10px;
+    position: relative;
+    width: 320px;
+    height: 280px;
+    background-color: #FFFFFF;
+    margin: 30px 0px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-card {
+    font-weight: 500;
+    font-size: 20px;
+    color: #07396C;
+    margin-bottom: 10px;
+}
+
+.name-card {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.amount-card {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card-image {
+    position: absolute;
+    /* background-image: url(https://images.unsplash.com/photo-1582727657635-c771002bdada?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ); */
+    height: 7.5rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.testt {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px 0 0 20px;
+}
+
+.button-container {
+    background-color: #2371C1;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-card {
+    border-radius: 5px;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.icon-button {
+    color: #fff;
+    margin-right: 5px;
+}

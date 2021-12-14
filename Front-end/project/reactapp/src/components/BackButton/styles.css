@@ -1,0 +1,10 @@
+#back-button-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.back-button-text {
+    margin-left: 5px;
+}

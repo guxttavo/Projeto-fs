@@ -1,0 +1,43 @@
+-->O QUE FOI FEITO:
+
+   -FRONTEND
+      	•Foram desenvolvidas tais páginas responsivas em React e Typescript:
+	    			1.Página de Login 
+	    			2.Página de Registro
+	    			3.Página de Confirmação de senha
+	    			4.Página de Alteração de senha
+	    			5.Página Home
+	    			6.Página de Cursos
+	    			7.Página Ao Vivo 
+       •A página de registro já está funcional, usamos o fetch para capturar os dados digitados pelo usuário e enviar para a API.
+       •Todos os protótipos das páginas criadas estão no Figma.
+
+   -BACKEND
+       •Foi construída a API(usando o viewsets) com as seguintes funcionalidades:
+	    			1.CRUD de usuário
+	    			2.CRUD de cursos + filtro de busca
+	    			3.CRUD de aulas + filtro de busca
+	    			4.CRUD de matérias
+	 						OBS: Há uma relação de dependência  N:1 entre os models materiais-aulas e os models aulas-cursos.
+       •A autenticação do backend usando JWT está funcionando na tela de registro. 
+       •A API já foi testada, usamos a ferramenta Postman.
+       •Utilizamos corsheaders para permitir que o localhost seja acessado pelo Django.
+
+-->O QUE FALTA FAZER:
+
+   -FRONTEND
+        •A tela de login não está armazenando o token no local storage. Tentamos usando fetch, porém não conseguimos, também é possível fazer por axios. 
+				•Configurar as rotas das páginas no front-end(ex: Ao logar, redirecionar para a página home).
+				•Adicionar campo de confirmação de senha na página de registro.
+				•A única página que faltou foi a de aulas, o protótipo dessa página já está no Figma.
+
+   -BACKEND
+				•Falta colocar o caminho do repositório aonde o material das aulas será armazenado.
+				•Configurar como alterar a senha.
+				•Acrescentar imagem ao model curso.
+				•Descomentar os códigos para confirmação de senha(no App Accounts.py).
+
+
+
+
+

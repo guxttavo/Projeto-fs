@@ -1,0 +1,138 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container-register {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+.first-section-register {
+    display: flex;
+    flex: 0 0 50%;
+    background: #2371C1;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section-register {
+    background: #fff;
+    flex: 0 0 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 10rem 0 10rem;
+}
+
+.image-register {
+    max-height: 450px;
+    max-width: 650px;
+}
+
+.logo-register {
+    height: 200px;
+    width: 200px;
+    align-items: flex-start;
+    margin-right: 400px;
+}
+
+.image-container-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.title-register {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle-register {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#all-register {
+    margin-bottom: 100px;
+}
+
+.text-register {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.subt-resister {
+    font-size: 16px;
+    color: #B2B2B2;
+    padding: 1rem 0 0 0;
+}
+
+span {
+    color: #2371C1;
+    cursor: pointer;
+}
+
+#text-container {
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .first-section-register {
+        display: none;
+    }
+    .container-register {
+        align-items: center;
+        justify-content: center;
+    }
+    .second-section-register {
+        flex: 1;
+        padding: 50px !important;
+    }
+}
+
+@media (max-width: 374px) {
+    .second-section-register {
+        margin-top: 200px;
+    }
+}
+
+@media (max-height: 1024px) {
+    .text-register {
+        font-size: 30px;
+    }
+    .subt-register {
+        font-size: 14px !important;
+    }
+    #text-container {
+        padding-bottom: 30px !important;
+    }
+    #label {
+        font-size: 12px;
+    }
+    .forget-password {
+        font-size: 12px;
+    }
+}
+
+@media (max-height: 778px) {
+    .second-section-register {
+        padding: 2rem 10rem 0 10rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .second-section-register {
+        padding: 2rem 5rem 0 5rem;
+    }
+    .image-register {
+        height: 350px;
+        width: 550px;
+    }
+}
